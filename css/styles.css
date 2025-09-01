@@ -12136,9 +12136,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 @media (max-width: 600px) {
   .dropdown-content {
-    min-width: 100vw !important;   /* Full viewport width */
-    left: 0;
-    right: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;          
+    min-width: 100%;
   }
 }
 
